@@ -3,14 +3,15 @@
 
 主要是使用了媒体查询prefers-color-scheme来进行适配。
 
-目前适配尚未完成，请谨慎使用
+主要组件已经适配完成，部分原生组件，如switch暂未适配
 
 
 ## 使用UniApp开发
 ### 开始
 下载源码解压获得`/Colorui-UniApp`文件夹，复制目录下的 `/colorui` 文件夹到你的项目根目录
 
-`App.vue` 引入关键Css `main.css` `icon.css`
+`App.vue` 引入关键Css `main.css` `icon.css` 、 `dark.css`
+请将dark.css放在最下方，防止样式被覆盖
 ```
 <style>
 @import "colorui/main.css";
