@@ -1,6 +1,7 @@
 ## 前言
 本库是colorUI的darkmode版本，适配各个小程序的黑暗模式。
-主要是使用了媒体查询prefers-color-scheme来进行适配
+主要是使用了媒体查询prefers-color-scheme来进行适配。
+目前适配尚未完成，请谨慎使用
 
 
 ## 使用UniApp开发
@@ -12,6 +13,7 @@
 <style>
 @import "colorui/main.css";
 @import "colorui/icon.css";
+@import "colorui/dark.css";
 @import "app.css"; /* 你的项目css */
 ....
 </style>
