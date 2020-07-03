@@ -66,17 +66,6 @@ page {
 	--greyShadow: rgba(114, 130, 138, 0.2);
 	--grayShadow: rgba(114, 130, 138, 0.2);
 	--blackShadow: rgba(26, 26, 26, 0.2);
-	/* 暗黑模式适配色 */
-	--darkBlack: #000000;
-	--lightGray: #1F1F1F;
-	--darkGray: #141414;
-	/* 暗黑模式渐变色 */
-	--darkGradualRed: linear-gradient(45deg, #f43f3b, #ec008c);
-	--darkGradualOrange: linear-gradient(45deg, #ff9700, #ed1c24);
-	--darkGradualGreen: linear-gradient(45deg, #39b54a, #8dc63f);
-	--darkGradualPurple: linear-gradient(45deg, #9000ff, #5e00ff);
-	--darkGradualPink: linear-gradient(45deg, #ec008c, #6739b6);
-	--darkGradualBlue: linear-gradient(45deg, #112A45, #1765AD);
 
 	background-color: var(--ghostWhite);
 	font-size: 28rpx;
@@ -94,13 +83,6 @@ label,
 navigator,
 image {
 	box-sizing: border-box;
-}
-
-/* 暗黑模式下应用的样式 */
-@media (prefers-color-scheme: dark) {
-  page {
-    background-color: #000000;
-  }
 }
 
 .round {
@@ -3958,25 +3940,3 @@ scroll-view.cu-steps .cu-item {
 	color: var(--white);
 }
 
-/* 暗黑模式下应用的样式 */
-@media (prefers-color-scheme: dark) {
-  page{
-    background: #000000;
-  }
-}
-
-/* 暗黑模式下应用的样式 */
-@media (prefers-color-scheme: dark) {
-  page {
-    background-color: var(--darkBlack);
-	}
-
-	.bg-gradual-blue {
-		background-image: var(--darkGradualBlue);
-	}
-
-	.bg-white {
-		color: var(--gray);
-		background-color: var(--lightGray);
-	}
-}
