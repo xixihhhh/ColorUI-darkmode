@@ -1,6 +1,8 @@
 ## 前言
 本库是colorUI的darkmode版本，适配各个小程序的黑暗模式。
+
 主要是使用了媒体查询prefers-color-scheme来进行适配。
+
 目前适配尚未完成，请谨慎使用
 
 
