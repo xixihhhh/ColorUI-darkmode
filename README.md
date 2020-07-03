@@ -6,10 +6,10 @@
 主要组件已经适配完成，部分原生组件，如switch暂未适配
 
 ## 预览
-![image text](https://github.com/zywang98/pic-folder/blob/master/141593748556_.pic.jpg)
-![image text](https://github.com/zywang98/pic-folder/blob/master/151593748557_.pic.jpg)
-![image text](https://github.com/zywang98/pic-folder/blob/master/161593748558_.pic.jpg)
-![image text](https://github.com/zywang98/pic-folder/blob/master/171593748559_.pic.jpg)
+<img src="https://github.com/zywang98/pic-folder/blob/master/141593748556_.pic.jpg" width="200">
+<img src="https://github.com/zywang98/pic-folder/blob/master/151593748557_.pic.jpg" width="200">
+<img src="https://github.com/zywang98/pic-folder/blob/master/161593748558_.pic.jpg" width="200">
+<img src="https://github.com/zywang98/pic-folder/blob/master/171593748559_.pic.jpg" width="200">
 
 ## 使用UniApp开发
 ### 开始
