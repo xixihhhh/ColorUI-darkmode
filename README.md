@@ -1,14 +1,7 @@
-<p style="text-align: center;"><img src="https://image.weilanwl.com/uni/UniAppReadme.jpg" alt="ColorUI简介"></img></p>
-
 ## 前言
-ColorUI是一个css库！！！在你引入样式后可以根据class来调用组件，一些含有交互的操作我也有简单写，可以为你开发提供一些思路。
-## 交流
-微信群：加入微信群请先添加开发者微信，备注UniApp插件市场。QQ群：240787041 或扫描二维码。
-<p align="center"><img src="https://image.weilanwl.com/colorui/githubQrcode.jpg?a=1" alt="" style="max-width:100%;" width="748"></p>				  
+本库是colorUI的darkmode版本，适配各个小程序的黑暗模式。
+主要是使用了媒体查询prefers-color-scheme来进行适配
 
-## 素材
-ColorUI在语雀有个群友共同在维护的知识库，里面有一些群友改的模板和UI素材供开发使用哦！
-[语雀-ColorUI群资源](https://www.yuque.com/colorui)
 
 ## 使用UniApp开发
 ### 开始
@@ -151,8 +144,6 @@ Vue.component('cu-custom',cuCustom)
 | content     | 中间区域 | 
 | right    | 右侧区域(小程序端可使用范围很窄！)  | 
 
-## 赞赏
-<p align="center"><img src="https://image.weilanwl.com/colorui/githubAppreciate.jpg" alt="" style="max-width:100%;" width="600"></p>
 
 
 
