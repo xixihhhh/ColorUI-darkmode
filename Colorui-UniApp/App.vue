@@ -124,6 +124,7 @@
 <style>
 	@import "colorui/main.css";
 	@import "colorui/icon.css";
+	@import "colorui/dark.css";
 
 	.nav-list {
 		display: flex;

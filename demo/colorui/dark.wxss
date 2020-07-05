@@ -156,4 +156,12 @@
 	.cu-timeline>.cu-item[class*="cuIcon-"]::before {
 		background-color: var(--lightGray);
 	}
+	
+	.cu-form-group {
+		background-color: var(--lightGray);
+	}
+	
+	.cu-form-group+.cu-form-group {
+		border-top: 1rpx solid var(--darkDisable);
+	}
 }
