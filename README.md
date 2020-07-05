@@ -5,6 +5,8 @@
 
 主要组件已经适配完成，部分原生组件，如switch暂未适配
 
+请各位大佬轻喷，样式最近还会持续优化，有问题麻烦提issue，谢谢各位
+
 ## 预览
 <img src="https://github.com/zywang98/pic-folder/blob/master/141593748556_.pic.jpg" width="200">
 <img src="https://github.com/zywang98/pic-folder/blob/master/151593748557_.pic.jpg" width="200">
