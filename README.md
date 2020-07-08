@@ -30,7 +30,7 @@
 
 下载源码解压获得`/demo`，复制目录下的 `/colorui` 文件夹到你的项目根目录
 
-在 `App.vue` 引入的 `main.wxss` `icon.wxss` 后引入 `dark.wxss`
+在 `App.wxss` 引入的 `main.wxss` `icon.wxss` 后引入 `dark.wxss`
 
 ```
 @import "colorui/main.wxss";
@@ -44,7 +44,7 @@
 ### 开始
 下载源码解压获得`/Colorui-UniApp`文件夹，复制目录下的 `/colorui` 文件夹到你的项目根目录
 
-在 `App.wxss` 引入的 `main.css` `icon.css` 后引入 `dark.css`
+在 `App.vue` 引入的 `main.css` `icon.css` 后引入 `dark.css`
 
 ```
 <style>
