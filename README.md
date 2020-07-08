@@ -33,13 +33,11 @@
 在 `App.vue` 引入的 `main.css` `icon.css` 后引入 `dark.css`
 
 ```
-<style>
-@import "colorui/main.css";
-@import "colorui/icon.css";
-@import "colorui/dark.css";
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+@import "colorui/dark.wxss";
 @import "app.css"; /* 你的项目css */
 ....
-</style>
 ```
 
 ## 使用UniApp开发
@@ -49,11 +47,13 @@
 在 `App.wxss` 引入的 `main.css` `icon.css` 后引入 `dark.css`
 
 ```
-@import "colorui/main.wxss";
-@import "colorui/icon.wxss";
-@import "colorui/dark.wxss";
+<style>
+@import "colorui/main.css";
+@import "colorui/icon.css";
+@import "colorui/dark.css";
 @import "app.css"; /* 你的项目css */
 ....
+</style>
 ```
 
 ### 使用自定义导航栏
