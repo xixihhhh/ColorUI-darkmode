@@ -8,17 +8,14 @@
 请各位大佬轻喷，样式最近还会持续优化，有问题麻烦提issue，谢谢各位
 
 ## 预览
-<img src="https://github.com/zywang98/pic-folder/blob/master/141593748556_.pic.jpg" width="200">
-<img src="https://github.com/zywang98/pic-folder/blob/master/151593748557_.pic.jpg" width="200">
-<img src="https://github.com/zywang98/pic-folder/blob/master/161593748558_.pic.jpg" width="200">
-<img src="https://github.com/zywang98/pic-folder/blob/master/171593748559_.pic.jpg" width="200">
+<img src="https://github.com/zywang98/pic-folder/blob/master/141593748556_.pic.jpg" width="200"><img src="https://github.com/zywang98/pic-folder/blob/master/151593748557_.pic.jpg" width="200"><img src="https://github.com/zywang98/pic-folder/blob/master/161593748558_.pic.jpg" width="200"><img src="https://github.com/zywang98/pic-folder/blob/master/171593748559_.pic.jpg" width="200">
 
-## 使用UniApp开发
-### 开始
+## 在UniApp快速导入黑暗模式
+
 下载源码解压获得`/Colorui-UniApp`文件夹，复制目录下的 `/colorui` 文件夹到你的项目根目录
 
-`App.vue` 引入关键Css `main.css` `icon.css` 、 `dark.css`
-请将dark.css放在最下方，防止样式被覆盖
+在 `App.vue` 引入的 `main.css` `icon.css` 后引入 `dark.css`
+
 ```
 <style>
 @import "colorui/main.css";
@@ -27,6 +24,36 @@
 @import "app.css"; /* 你的项目css */
 ....
 </style>
+```
+
+## 在原生小程序中快速导入黑暗模式
+
+下载源码解压获得`/demo`，复制目录下的 `/colorui` 文件夹到你的项目根目录
+
+在 `App.vue` 引入的 `main.css` `icon.css` 后引入 `dark.css`
+
+```
+<style>
+@import "colorui/main.css";
+@import "colorui/icon.css";
+@import "colorui/dark.css";
+@import "app.css"; /* 你的项目css */
+....
+</style>
+```
+
+## 使用UniApp开发
+### 开始
+下载源码解压获得`/Colorui-UniApp`文件夹，复制目录下的 `/colorui` 文件夹到你的项目根目录
+
+在 `App.wxss` 引入的 `main.css` `icon.css` 后引入 `dark.css`
+
+```
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+@import "colorui/dark.wxss";
+@import "app.css"; /* 你的项目css */
+....
 ```
 
 ### 使用自定义导航栏
@@ -101,6 +128,7 @@ Vue.component('cu-custom',cuCustom)
 ```
 @import "colorui/main.wxss";
 @import "colorui/icon.wxss";
+@import "colorui/dark.wxss";
 @import "app.css"; /* 你的项目css */
 ....
 ```
