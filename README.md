@@ -30,13 +30,13 @@
 
 下载源码解压获得`/demo`，复制目录下的 `/colorui` 文件夹到你的项目根目录
 
-在 `App.vue` 引入的 `main.css` `icon.css` 后引入 `dark.css`
+在 `App.vue` 引入的 `main.wxss` `icon.wxss` 后引入 `dark.wxss`
 
 ```
 @import "colorui/main.wxss";
 @import "colorui/icon.wxss";
 @import "colorui/dark.wxss";
-@import "app.css"; /* 你的项目css */
+@import "app.wxss"; /* 你的项目wxss */
 ....
 ```
 
